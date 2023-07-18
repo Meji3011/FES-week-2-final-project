@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  padding: 32px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+.text--blue {
+  color: #6415ff;
+}
+
+/* NAVIGATION BAR */
+
+.nav--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo-title--link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 40px;
+  height: 40px;
+  margin: 0 12px 0 0;
+}
+
+.nav__title {
+  font-size: 24px;
+  font-weight: 900;
+  color: black;
+}
+
+.nav__link--list {
+  display: flex;
+}
+
+.nav__link--anchor {
+  color: black;
+  font-size: 14px;
+  margin: 0 24px;
+  font-weight: 600;
+}
+
+.nav__link--anchor-extra-space {
+  margin: 0 24px 0 48px;
+}
+
+.nav__link--anchor-primary {
+  margin: 0 24px 0 0;
+  background-color: #6415ff;
+  padding: 12px 32px;
+  border-radius: 50px;
+  color: white;
+}
+
+/* LANDING SECTION */
+
+.landing--container {
+  margin: 96px 0;
+  display: flex;
+}
+
+.landing__left--container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 40%;
+}
+
+.landing__right--container {
+  width: 60%;
+}
+
+.landing__left--para {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 32px 0;
+}
+
+.landing__left__input--container {
+  position: relative;
+  display: inline-block;
+  margin: 24px 0 72px 0;
+  padding-right: 64px;
+}
+
+.landing__left__email-input {
+  width: 100%;
+  padding: 20px 192px 20px 32px;
+  font-size: 16px;
+  border: 2px solid rgb(160, 160, 160);
+  border-radius: 50px;
+}
+
+.landing__btn {
+  position: absolute;
+  width: 160px;
+  right: 64px;
+  top: -2px;
+  border: none;
+  background-color: #6415ff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 8px 8px 0;
+  padding: 16px 0;
+  border-radius: 50px;
+  color: white;
+}
+
+.landing__left--para-2 {
+  font-size: 12px;
+  color: rgb(160, 160, 160);
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  margin: 0 0 24px 0;
+}
+
+.landing__left--img {
+  width: 100%;
+  max-width: 768px;
+  padding-right: 128px;
+  opacity: 0.6;
+}
+
+.landing__right--img {
+  width: 100%;
+}
+
+/* FEATURES SECTION */
+
+.features__row {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+}
+
+.features--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:80px;
+}
+
+.features--title {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-bottom: 24px;
+}
+
+.features--description {
+    font-size: 48px;
+    margin-bottom: 24px;
+    font-weight: 900;
+}
+
+.features--para {
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(100, 100, 100);
+    text-align: center;
+    width: 45%;
+    min-width: 560px;
+    margin-bottom: 48px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    display: flex;
+    width: calc(100%/3);
+    margin: 48px 0;
+    padding: 0 16px;
+}
+
+.service--img-border {
+    width: 66px;
+    height: 66px;
+    border-radius: 9999px;
+    border: 1px solid rgb(226,232,240);
+    padding: 20px;
+    text-align: center;
+}
+
+.service--img {
+    vertical-align: middle;
+}
+
+.service--text--container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.service--title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.025em;
+}
+
+.service--description {
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 2;
+    font-weight: 500;
+}
+
+/* QUALITY WORK SECTION */
+
+.quality-work--container {
+    display: flex;
+    margin-top: 96px;
+}
+
+.quality-work__left--container,
+.quality-work__right--container {
+    width: 50%;
+}
+
+.quality-work--para {
+    text-align: left;
+}
+
+.features__link--anchor {
+    font-weight: 700;
+}
+
+
+/* @media (max-width:1024px) {
+    .nav__link--anchor {
+        display: none;
+    }
+} */
