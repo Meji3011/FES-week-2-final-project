@@ -9,6 +9,7 @@
       src="https://kit.fontawesome.com/4631941e8a.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
   </head>
   <body>
     <section id="nav-bar">
@@ -49,6 +50,25 @@
                 <a href="" class="nav__link--anchor-primary">Sign Up</a>
               </li>
             </ul>
+            <button class="btn__menu" onclick="openMenu()">
+              <i class="fa-solid fa-bars" style="color: #6415ff"></i>
+            </button>
+            <div class="menu__backdrop">
+              <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+              <ul class="menu__links">
+                <li class="menu__link">
+                  <a href="#" class="" onclick="closeMenu()">Home</a>
+                </li>
+                <li class="menu__link">
+                  <a href="" class="no-cursor">Books</a>
+                </li>
+                <li class="menu__link">
+                  <a href="" class="no-cursor">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -229,11 +249,11 @@
               >
             </div>
             <div class="quality-work__right--container">
-                <img
-                  src="https://treact.owaiskhan.me/static/media/hero-screenshot-1.40a097b525c2f8c9808e.png"
-                  alt=""
-                  class="quality-work--img"
-                />
+              <img
+                src="https://treact.owaiskhan.me/static/media/hero-screenshot-1.40a097b525c2f8c9808e.png"
+                alt=""
+                class="quality-work--img"
+              />
             </div>
           </div>
         </div>
@@ -243,11 +263,11 @@
         <div class="row">
           <div class="steps--container">
             <div class="steps__left--container">
-                <img
-                  src="https://treact.owaiskhan.me/static/media/hero-screenshot-2.241aac1fbc66db29d873.png"
-                  alt=""
-                  class="steps--img"
-                />
+              <img
+                src="https://treact.owaiskhan.me/static/media/hero-screenshot-2.241aac1fbc66db29d873.png"
+                alt=""
+                class="steps--img"
+              />
             </div>
             <div class="steps__right--container">
               <h4 class="features--title">
@@ -351,11 +371,11 @@
               >
             </div>
             <div class="values__right--container">
-                <img
-                  src="	https://treact.owaiskhan.me/static/media/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
-                  alt=""
-                  class="values--img"
-                />
+              <img
+                src="	https://treact.owaiskhan.me/static/media/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
+                alt=""
+                class="values--img"
+              />
             </div>
           </div>
         </div>
@@ -365,7 +385,7 @@
         <div class="row">
           <div class="pricing--container">
             <h4 class="features--title">
-              <span class="text--blue">VALUES</span>
+              <span class="text--blue">PRICING</span>
             </h4>
             <h2 class="features--description steps--description">
               Reasonable & Flexible
@@ -453,7 +473,7 @@
 
       <section id="testimonials">
         <div class="row">
-          <div class="testmonials--containers">
+          <div class="testimonials--containers">
             <div class="testimonials__left--container">
               <figure class="values--img-wrapper">
                 <img
