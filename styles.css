@@ -1240,6 +1240,34 @@ a {
     align-items: center;
   }
 
+  .service,
+  .steps__step--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service--text--container {
+    margin: 0 auto;
+  }
+
+.service--title,
+.steps__step--title {
+  margin: 24px 0;
+}
+
+.steps__step--description--container {
+  margin: 0 auto;
+}
+
+  .service--title,
+  .service--description,
+  .steps__step--title,
+  .steps__step--para,
+  .steps__step--number {
+    text-align: center;
+  }
+
   .landing__btn {
     position: inherit;
     width: 100%;
