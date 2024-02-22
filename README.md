@@ -1,4 +1,4 @@
-**# CES-week-2-final-project**
+**# FES-week-2-final-project**
 
 Project Objective: Replicate the website found at [this link](https://treact.owaiskhan.me/components/landingPages/SaaSProductLandingPage) (remember to open to new tab!). It is a landing page for Treact.
 
